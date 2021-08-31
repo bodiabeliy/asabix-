@@ -1,9 +1,15 @@
 @media (max-width:1980px) {
+    h2 {
+        margin-right: 8%;
+    }
     .active {
         transform: translateX(30%);
     }
     .footer-copyright {
         display: flex;
+    }
+    .section__block-text {
+        padding-bottom: 200px;
     }
     .nav-nomobile {
         list-style: none;
@@ -11,6 +17,10 @@
     }
     .header__menu-item {
         padding: 15px;
+    }
+    .grafics {
+        display: flex;
+        transform: rotate(270deg);
     }
 }
 @media (max-width:1119px) {
@@ -20,10 +30,26 @@
 }
 
 @media (max-width:767px) {
+    h2 {
+        margin-right: 0%;
+    }
+    .grafics {
+        display: flex;
+        transform: none;
+    }
     .header__menu--active {
         z-index: 5;
         width: 110%;
     }
+    .section__block-text {
+        padding-bottom: 0;
+    }
+    .section__block-2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
    
     .header__menu-list {
         height: 110%;
